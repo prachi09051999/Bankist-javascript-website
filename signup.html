@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Bankist Signup</title>
+  </head>
+  <body>
+    <!-- TOP NAVIGATION -->
+    <nav>
+      <div class="login-signup">
+        <p class="welcome">Sign up to get started</p>
+      </div>
+      <img src="logo.png" alt="Logo" class="logo" />
+        <div class="login-page">       
+          <p class="login-text">Login</p> 
+          <a class="login__btn" href="./index.html">&rarr;</a>
+        </div>
+    </nav>
+
+    <main class="app show">
+    <form class="signup-form">
+      <input type="text" name="firstName" id="firstName" class="login__input login__input--user" placeholder="First Name">
+      <input type="text" name="lastName" id="lastName" class="login__input login__input--user" placeholder="Last Name">
+      <input
+          type="text" name="pin" id="pin"
+          placeholder="PIN"
+          maxlength="4"
+          class="login__input login__input--pin"
+        />
+        <button class="signup__btn">Sign up</button> 
+    </form>
+    </main>
+
+    <footer>
+      &copy; by Prachi Tripathi.
+    </footer>
+
+    <script src="signup.js"></script>
+  </body>
+</html>
